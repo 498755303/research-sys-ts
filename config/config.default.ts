@@ -34,7 +34,7 @@ export default (appInfo: EggAppInfo) => {
         port: 3306,
         database: "research_sys_dev",
         username: "huliang",
-        password: "hu2100159",
+
         timezone: "+08:00"
     };
     // the return config will combines to EggAppConfig
