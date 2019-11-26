@@ -1,0 +1,42 @@
+{
+  "development": {
+    "username": "huliang",
+    "password": "hu2100159",
+    "database": "research_sys_dev",
+    "host": "49.233.202.147",
+    "dialect": "mysql",
+    "operatorsAliases": false,
+    "pool": {
+      "max": 50,
+      "min": 0,
+      "idle": 10000
+    },
+    "retry": {
+      "max": 3
+    }
+  },
+  "test": {
+    "username": "huliang",
+    "password": "hu2100159",
+    "database": "research_sys_dev",
+    "host": "49.233.202.147",
+    "dialect": "mysql",
+    "operatorsAliases": false,
+    "pool": {
+      "max": 50,
+      "min": 0,
+      "idle": 10000
+    },
+    "retry": {
+      "max": 3
+    }
+  },
+  "production": {
+    "username": "huliang",
+    "password": "hu2100159",
+    "database": "research_sys_pro",
+    "host": "49.233.202.147",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}

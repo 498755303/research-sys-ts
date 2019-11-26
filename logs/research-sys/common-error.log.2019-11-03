@@ -1,0 +1,60 @@
+2019-11-03 10:06:17,895 ERROR 9244 nodejs.ServerNoResponseError: server 127.0.0.1:60522 no response in 20007ms, maybe the socket is end on the other side. (address: 127.0.0.1:60522)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\project\我的服务器\research-sys\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ServerNoResponseError"
+pid: 9244
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-03 10:08:11,620 ERROR 5912 nodejs.ClusterClientNoResponseError: client no response in 153708ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\project\我的服务器\research-sys\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 5912
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-03 11:54:46,493 ERROR 7544 nodejs.ServerNoResponseError: server 127.0.0.1:62698 no response in 20006ms, maybe the socket is end on the other side. (address: 127.0.0.1:62698)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\project\我的服务器\research-sys\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ServerNoResponseError"
+pid: 7544
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-03 13:24:27,372 ERROR 2064 nodejs.ClusterClientNoResponseError: client no response in 5420920ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\project\我的服务器\research-sys\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2064
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-03 13:26:57,025 ERROR 9932 nodejs.ServerNoResponseError: server 127.0.0.1:64207 no response in 20008ms, maybe the socket is end on the other side. (address: 127.0.0.1:64207)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\project\我的服务器\research-sys\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ServerNoResponseError"
+pid: 9932
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-04 16:38:34,987 ERROR 8240 nodejs.ClusterClientNoResponseError: client no response in 97937868ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\project\我的服务器\research-sys\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 8240
+hostname: DESKTOP-Q6CN8O6
+

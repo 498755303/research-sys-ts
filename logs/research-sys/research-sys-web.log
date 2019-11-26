@@ -1,0 +1,500 @@
+2019-11-24 14:14:55,381 INFO 182108 [egg-sequelize](35ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 14:33:33,591 INFO 175752 [egg-sequelize](39ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 14:34:57,860 INFO 190272 [egg-sequelize](42ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 14:36:40,817 INFO 190232 [egg-sequelize](34ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 14:38:43,555 INFO 183916 [egg-sequelize](32ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 14:44:49,018 INFO 190448 [egg-sequelize](26ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 14:44:53,755 INFO 190448 [egg-sequelize](28ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 14:49:40,823 INFO 190448 [egg-sequelize](42ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 15:07:48,771 INFO 190924 [egg-sequelize](35ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 15:08:38,260 INFO 190924 [egg-sequelize](37ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 15:07:54,716 INFO 186292 [egg-sequelize](35ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 15:20:51,075 INFO 193788 [egg-sequelize](36ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 15:21:30,032 INFO 193788 [egg-sequelize](35ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 15:30:19,860 INFO 193244 [egg-sequelize](22ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 15:30:39,129 INFO 193244 [egg-sequelize](35ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 15:31:59,236 INFO 194900 [egg-sequelize](31ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 15:32:48,202 INFO 197248 [egg-sequelize](27ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 15:33:15,257 INFO 197492 [egg-sequelize](37ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 15:34:25,775 INFO 192848 [egg-sequelize](32ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 15:42:17,040 INFO 199568 [egg-sequelize](37ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 15:42:21,340 INFO 198968 [egg-sequelize](37ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 15:44:14,488 INFO 198968 [egg-sequelize](47ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 15:46:03,131 INFO 192028 [egg-sequelize](26ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 15:46:41,592 INFO 192028 [egg-sequelize](30ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 15:46:54,948 INFO 192028 [egg-sequelize](33ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 15:47:12,964 INFO 192028 [egg-sequelize](37ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:02:50,379 INFO 207680 [egg-sequelize](42ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 16:04:41,225 INFO 207680 [egg-sequelize](38ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:07:59,897 INFO 207680 [egg-sequelize](30ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:08:16,007 INFO 207680 [egg-sequelize](26ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:08:25,263 INFO 209332 [egg-sequelize](47ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 16:08:27,863 INFO 209332 [egg-sequelize](43ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:08:37,978 INFO 209332 [egg-sequelize](42ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:08:39,857 INFO 209644 [egg-sequelize](41ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 16:08:58,834 INFO 209644 [egg-sequelize](42ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:09:46,814 INFO 209204 [egg-sequelize](40ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 16:09:59,405 INFO 209408 [egg-sequelize](34ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 16:10:07,186 INFO 209408 [egg-sequelize](34ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:11:05,084 INFO 209408 [egg-sequelize](26ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:12:48,179 INFO 209192 [egg-sequelize](37ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 16:14:22,352 INFO 209192 [egg-sequelize](37ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:14:40,896 INFO 209192 [egg-sequelize](29ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:14:52,323 INFO 209192 [egg-sequelize](35ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:16:06,289 INFO 209192 [egg-sequelize](36ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:16:16,312 INFO 211496 [egg-sequelize](36ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 16:16:45,724 INFO 209080 [egg-sequelize](33ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 16:17:21,414 ERROR 209080 [-/127.0.0.1/-/60ms POST /api/v1/auth.user.register] nodejs.TypeError: this.ctx.success is not a function
+    at Admin.register (D:\project\我的服务器\research-sys\app\controller\v1\loginAuth.ts:65:14)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:45:18)
+    at D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\project\我的服务器\research-sys\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 209080
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 16:17:36,365 INFO 212572 [egg-sequelize](26ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 16:18:04,601 INFO 212460 [egg-sequelize](41ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 16:19:16,363 INFO 212460 [egg-sequelize](40ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:20:30,729 INFO 212460 [egg-sequelize](41ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:20:39,783 INFO 212460 [egg-sequelize](41ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:20:42,508 INFO 210628 [egg-sequelize](37ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 16:20:53,426 INFO 212460 [egg-sequelize](25ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:21:09,745 INFO 210628 [egg-sequelize](31ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 16:21:13,566 INFO 213712 [egg-sequelize](26ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 16:21:38,291 INFO 213632 [egg-sequelize](37ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 18:52:40,568 INFO 269940 [egg-sequelize](44ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 18:52:45,619 INFO 266948 [egg-sequelize](42ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 18:53:00,671 INFO 266948 [egg-sequelize](34ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 18:53:00,881 ERROR 266948 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: obj.keys is not a function
+    at Object.humpToUnderline (D:\project\我的服务器\research-sys\app\extend\context.ts:9:22)
+    at User.register (D:\project\我的服务器\research-sys\app\service\user.ts:66:27)
+
+pid: 266948
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 18:55:33,748 INFO 266948 [egg-sequelize](27ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 18:55:33,793 ERROR 266948 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: obj.keys is not a function
+    at Object.humpToUnderline (D:\project\我的服务器\research-sys\app\extend\context.ts:9:22)
+    at User.register (D:\project\我的服务器\research-sys\app\service\user.ts:66:27)
+
+pid: 266948
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 18:55:43,856 INFO 266948 [egg-sequelize](26ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 18:55:43,985 ERROR 266948 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: obj.keys is not a function
+    at Object.humpToUnderline (D:\project\我的服务器\research-sys\app\extend\context.ts:9:22)
+    at User.register (D:\project\我的服务器\research-sys\app\service\user.ts:66:27)
+
+pid: 266948
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 18:55:46,844 INFO 272320 [egg-sequelize](36ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 18:55:52,478 INFO 272320 [egg-sequelize](37ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 18:55:52,903 ERROR 272320 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeValidationError: notNull Violation: user_info.user_password cannot be null,
+notNull Violation: user_info.user_telephone cannot be null,
+notNull Violation: user_info.creator_id cannot be null
+notNull Violation: user_info.user_telephone cannot be null,
+notNull Violation: user_info.creator_id cannot be null
+    at Promise.all.then (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:74:15)
+From previous event:
+    at InstanceValidator._validate (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:72:8)
+    at runHooks.then (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:107:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:106:8)
+    at InstanceValidator.validate (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:90:38)
+    at model.validate (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:4136:49)
+    at Promise.try (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:3901:21)
+From previous event:
+    at model.save (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:3898:23)
+    at Function.create (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:2226:8)
+    at User.register (D:\project\我的服务器\research-sys\app\service\user.ts:68:31)
+name: "SequelizeValidationError"
+errors: [{"message":"user_info.user_password cannot be null","type":"notNull Violation","path":"user_password","value":null,"origin":"CORE","instance":{"updated_time":"2019-11-24T10:55:52.515Z","is_deleted":0,"id":null,"company_id":1,"department_id":1,"user_name":"test@xm9m.com","real_name":"测试","status":1,"created_time":"2019-11-24T10:11:51.000Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"user_info.user_telephone cannot be null","type":"notNull Violation","path":"user_telephone","value":null,"origin":"CORE","instance":{"updated_time":"2019-11-24T10:55:52.515Z","is_deleted":0,"id":null,"company_id":1,"department_id":1,"user_name":"test@xm9m.com","real_name":"测试","status":1,"created_time":"2019-11-24T10:11:51.000Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"user_info.creator_id cannot be null","type":"notNull Violation","path":"creator_id","value":null,"origin":"CORE","instance":{"updated_time":"2019-11-24T10:55:52.515Z","is_deleted":0,"id":null,"company_id":1,"department_id":1,"user_name":"test@xm9m.com","real_name":"测试","status":1,"created_time":"2019-11-24T10:11:51.000Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]
+pid: 272320
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 18:55:57,801 INFO 271540 [egg-sequelize](41ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 18:56:45,631 INFO 270580 [egg-sequelize](27ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 18:57:13,355 ERROR 270580 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.error (D:\project\我的服务器\research-sys\app\extend\context.ts:48:18)
+    at Admin.validate (D:\project\我的服务器\research-sys\app\core\base_controller.ts:12:16)
+    at Admin.register (D:\project\我的服务器\research-sys\app\controller\v1\user.ts:63:10)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:45:18)
+    at D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\app\middleware\error_handler.ts:17:15
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\project\我的服务器\research-sys\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 270580
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 18:59:39,922 INFO 272724 [egg-sequelize](37ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 19:00:22,371 INFO 267712 [egg-sequelize](35ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 19:07:32,770 INFO 267712 [egg-sequelize](32ms) Executed (default): SELECT `id`, `company_id`, `department_id`, `user_name`, `user_password`, `real_name`, `user_telephone`, `last_login_time`, `last_login_ip`, `creator_id`, `created_time`, `updated_time`, `status`, `is_deleted` FROM `user_info` AS `user_info` WHERE `user_info`.`user_name` = 'test@xm9m.com' LIMIT 1;
+2019-11-24 19:07:32,831 ERROR 267712 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeValidationError: notNull Violation: user_info.user_telephone cannot be null,
+notNull Violation: user_info.creator_id cannot be null
+notNull Violation: user_info.creator_id cannot be null
+    at Promise.all.then (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:74:15)
+From previous event:
+    at InstanceValidator._validate (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:72:8)
+    at runHooks.then (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:107:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:106:8)
+    at InstanceValidator.validate (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:90:38)
+    at model.validate (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:4136:49)
+    at Promise.try (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:3901:21)
+From previous event:
+    at model.save (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:3898:23)
+    at Function.create (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:2226:8)
+    at User.register (D:\project\我的服务器\research-sys\app\service\user.ts:69:31)
+name: "SequelizeValidationError"
+errors: [{"message":"user_info.user_telephone cannot be null","type":"notNull Violation","path":"user_telephone","value":null,"origin":"CORE","instance":{"updated_time":"2019-11-24T11:07:32.779Z","is_deleted":0,"id":null,"company_id":1,"department_id":1,"user_name":"test@xm9m.com","user_password":"Abc12345","real_name":"测试","status":1,"created_time":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"user_info.creator_id cannot be null","type":"notNull Violation","path":"creator_id","value":null,"origin":"CORE","instance":{"updated_time":"2019-11-24T11:07:32.779Z","is_deleted":0,"id":null,"company_id":1,"department_id":1,"user_name":"test@xm9m.com","user_password":"Abc12345","real_name":"测试","status":1,"created_time":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]
+pid: 267712
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 19:12:00,116 INFO 278664 [egg-sequelize](35ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 19:12:10,920 WARN 278664 [-/127.0.0.1/-/421ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 278664
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 19:13:55,148 INFO 280148 [egg-sequelize](32ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 19:19:31,510 WARN 280148 [-/127.0.0.1/-/184ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 280148
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 19:22:22,367 INFO 284048 [egg-sequelize](32ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 19:22:28,319 WARN 284048 [-/127.0.0.1/-/522ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 284048
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 19:25:10,533 WARN 284048 [-/127.0.0.1/-/2ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 284048
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 19:25:51,994 INFO 285140 [egg-sequelize](36ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 19:26:17,231 WARN 285140 [-/127.0.0.1/-/510ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 285140
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 19:26:27,769 INFO 284240 [egg-sequelize](42ms) Executed (default): SELECT 1+1 AS result
+2019-11-24 19:28:43,136 WARN 284240 [-/127.0.0.1/-/186ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 284240
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:32:23,088 INFO 6936 [egg-sequelize](12ms) Executed (default): SELECT 1+1 AS result
+2019-11-25 22:33:22,084 WARN 6936 [-/127.0.0.1/-/31ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 6936
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:33:43,488 WARN 6936 [-/127.0.0.1/-/1ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 6936
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:34:34,947 INFO 14708 [egg-sequelize](11ms) Executed (default): SELECT 1+1 AS result
+2019-11-25 22:35:27,841 WARN 14708 [-/127.0.0.1/-/31ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 14708
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:35:56,785 WARN 14708 [-/127.0.0.1/-/1ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 14708
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:36:29,187 INFO 6848 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2019-11-25 22:36:39,041 WARN 6848 [-/127.0.0.1/-/49ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 6848
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:36:44,800 WARN 6848 [-/127.0.0.1/-/3ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 6848
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:37:14,393 WARN 6848 [-/127.0.0.1/-/3ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 6848
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:37:47,076 WARN 6848 [-/127.0.0.1/-/2ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 6848
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:38:00,835 WARN 6848 [-/127.0.0.1/-/2ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 6848
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:40:05,770 WARN 6848 [-/127.0.0.1/-/2ms POST /api/v1/auth.user.register] nodejs.SyntaxError: Unexpected string in JSON at position 124, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (D:\project\我的服务器\research-sys\node_modules\co-body\lib\json.js:41:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+status: 400
+body: "{\n\t\"companyId\":1,\n\t\"departmentId\":1,\n\t\"userName\":\"test@xm9m.com\",\n\t\"userPassword\":\"Abc12345\",\n\t\"userTelephone\":13101311564\n\t\"realName\":\"测试\",\n\t\"status\":1\n}"
+pid: 6848
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:40:44,326 ERROR 6848 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.error (D:\project\我的服务器\research-sys\app\extend\context.ts:48:18)
+    at User.validate (D:\project\我的服务器\research-sys\app\core\base_controller.ts:12:16)
+    at User.register (D:\project\我的服务器\research-sys\app\controller\v1\user.ts:63:10)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:45:18)
+    at D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\app\middleware\error_handler.ts:16:19
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\project\我的服务器\research-sys\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 6848
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:42:52,347 ERROR 6848 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.error (D:\project\我的服务器\research-sys\app\extend\context.ts:48:18)
+    at User.validate (D:\project\我的服务器\research-sys\app\core\base_controller.ts:12:16)
+    at User.register (D:\project\我的服务器\research-sys\app\controller\v1\user.ts:63:10)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:45:18)
+    at D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\app\middleware\error_handler.ts:16:19
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\project\我的服务器\research-sys\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 6848
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:44:05,944 INFO 8112 [egg-sequelize](8ms) Executed (default): SELECT 1+1 AS result
+2019-11-25 22:44:10,100 ERROR 8112 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.error (D:\project\我的服务器\research-sys\app\extend\context.ts:48:18)
+    at User.validate (D:\project\我的服务器\research-sys\app\core\base_controller.ts:12:16)
+    at User.register (D:\project\我的服务器\research-sys\app\controller\v1\user.ts:63:10)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:45:18)
+    at D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\app\middleware\error_handler.ts:16:19
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\project\我的服务器\research-sys\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 8112
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:44:31,173 ERROR 8112 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.error (D:\project\我的服务器\research-sys\app\extend\context.ts:48:18)
+    at User.validate (D:\project\我的服务器\research-sys\app\core\base_controller.ts:12:16)
+    at User.register (D:\project\我的服务器\research-sys\app\controller\v1\user.ts:63:10)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:45:18)
+    at D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\app\middleware\error_handler.ts:16:19
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\project\我的服务器\research-sys\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 8112
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:45:44,452 ERROR 8112 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.error (D:\project\我的服务器\research-sys\app\extend\context.ts:48:18)
+    at User.validate (D:\project\我的服务器\research-sys\app\core\base_controller.ts:12:16)
+    at User.register (D:\project\我的服务器\research-sys\app\controller\v1\user.ts:63:10)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:45:18)
+    at D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\app\middleware\error_handler.ts:16:19
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\project\我的服务器\research-sys\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 8112
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:46:33,300 INFO 816 [egg-sequelize](20ms) Executed (default): SELECT 1+1 AS result
+2019-11-25 22:53:12,075 INFO 8344 [egg-sequelize](17ms) Executed (default): SELECT 1+1 AS result
+2019-11-25 22:53:20,416 INFO 2372 [egg-sequelize](11ms) Executed (default): SELECT 1+1 AS result

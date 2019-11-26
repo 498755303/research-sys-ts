@@ -1,0 +1,329 @@
+2019-11-24 16:06:43,094 ERROR 207220 nodejs.ClusterClientNoResponseError: client no response in 72997ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\project\我的服务器\research-sys\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 207220
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 16:12:06,353 ERROR 207220 nodejs.ClusterClientNoResponseError: client no response in 61415ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\project\我的服务器\research-sys\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 207220
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 16:17:21,405 ERROR 209080 [-/127.0.0.1/-/60ms POST /api/v1/auth.user.register] nodejs.TypeError: this.ctx.success is not a function
+    at Admin.register (D:\project\我的服务器\research-sys\app\controller\v1\loginAuth.ts:65:14)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:45:18)
+    at D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\project\我的服务器\research-sys\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 209080
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 18:53:00,784 ERROR 266948 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: obj.keys is not a function
+    at Object.humpToUnderline (D:\project\我的服务器\research-sys\app\extend\context.ts:9:22)
+    at User.register (D:\project\我的服务器\research-sys\app\service\user.ts:66:27)
+
+pid: 266948
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 18:55:33,780 ERROR 266948 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: obj.keys is not a function
+    at Object.humpToUnderline (D:\project\我的服务器\research-sys\app\extend\context.ts:9:22)
+    at User.register (D:\project\我的服务器\research-sys\app\service\user.ts:66:27)
+
+pid: 266948
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 18:55:43,929 ERROR 266948 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: obj.keys is not a function
+    at Object.humpToUnderline (D:\project\我的服务器\research-sys\app\extend\context.ts:9:22)
+    at User.register (D:\project\我的服务器\research-sys\app\service\user.ts:66:27)
+
+pid: 266948
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 18:55:52,826 ERROR 272320 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeValidationError: notNull Violation: user_info.user_password cannot be null,
+notNull Violation: user_info.user_telephone cannot be null,
+notNull Violation: user_info.creator_id cannot be null
+notNull Violation: user_info.user_telephone cannot be null,
+notNull Violation: user_info.creator_id cannot be null
+    at Promise.all.then (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:74:15)
+From previous event:
+    at InstanceValidator._validate (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:72:8)
+    at runHooks.then (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:107:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:106:8)
+    at InstanceValidator.validate (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:90:38)
+    at model.validate (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:4136:49)
+    at Promise.try (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:3901:21)
+From previous event:
+    at model.save (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:3898:23)
+    at Function.create (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:2226:8)
+    at User.register (D:\project\我的服务器\research-sys\app\service\user.ts:68:31)
+name: "SequelizeValidationError"
+errors: [{"message":"user_info.user_password cannot be null","type":"notNull Violation","path":"user_password","value":null,"origin":"CORE","instance":{"updated_time":"2019-11-24T10:55:52.515Z","is_deleted":0,"id":null,"company_id":1,"department_id":1,"user_name":"test@xm9m.com","real_name":"测试","status":1,"created_time":"2019-11-24T10:11:51.000Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"user_info.user_telephone cannot be null","type":"notNull Violation","path":"user_telephone","value":null,"origin":"CORE","instance":{"updated_time":"2019-11-24T10:55:52.515Z","is_deleted":0,"id":null,"company_id":1,"department_id":1,"user_name":"test@xm9m.com","real_name":"测试","status":1,"created_time":"2019-11-24T10:11:51.000Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"user_info.creator_id cannot be null","type":"notNull Violation","path":"creator_id","value":null,"origin":"CORE","instance":{"updated_time":"2019-11-24T10:55:52.515Z","is_deleted":0,"id":null,"company_id":1,"department_id":1,"user_name":"test@xm9m.com","real_name":"测试","status":1,"created_time":"2019-11-24T10:11:51.000Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]
+pid: 272320
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 18:57:13,343 ERROR 270580 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.error (D:\project\我的服务器\research-sys\app\extend\context.ts:48:18)
+    at Admin.validate (D:\project\我的服务器\research-sys\app\core\base_controller.ts:12:16)
+    at Admin.register (D:\project\我的服务器\research-sys\app\controller\v1\user.ts:63:10)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:45:18)
+    at D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\app\middleware\error_handler.ts:17:15
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\project\我的服务器\research-sys\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 270580
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 18:59:22,261 ERROR 268504 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 268504
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 19:07:32,818 ERROR 267712 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeValidationError: notNull Violation: user_info.user_telephone cannot be null,
+notNull Violation: user_info.creator_id cannot be null
+notNull Violation: user_info.creator_id cannot be null
+    at Promise.all.then (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:74:15)
+From previous event:
+    at InstanceValidator._validate (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:72:8)
+    at runHooks.then (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:107:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:106:8)
+    at InstanceValidator.validate (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\instance-validator.js:90:38)
+    at model.validate (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:4136:49)
+    at Promise.try (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:3901:21)
+From previous event:
+    at model.save (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:3898:23)
+    at Function.create (D:\project\我的服务器\research-sys\node_modules\sequelize\lib\model.js:2226:8)
+    at User.register (D:\project\我的服务器\research-sys\app\service\user.ts:69:31)
+name: "SequelizeValidationError"
+errors: [{"message":"user_info.user_telephone cannot be null","type":"notNull Violation","path":"user_telephone","value":null,"origin":"CORE","instance":{"updated_time":"2019-11-24T11:07:32.779Z","is_deleted":0,"id":null,"company_id":1,"department_id":1,"user_name":"test@xm9m.com","user_password":"Abc12345","real_name":"测试","status":1,"created_time":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"user_info.creator_id cannot be null","type":"notNull Violation","path":"creator_id","value":null,"origin":"CORE","instance":{"updated_time":"2019-11-24T11:07:32.779Z","is_deleted":0,"id":null,"company_id":1,"department_id":1,"user_name":"test@xm9m.com","user_password":"Abc12345","real_name":"测试","status":1,"created_time":null},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]
+pid: 267712
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 19:20:35,425 ERROR 280148 nodejs.ServerNoResponseError: server 127.0.0.1:59544 no response in 20014ms, maybe the socket is end on the other side. (address: 127.0.0.1:59544)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\project\我的服务器\research-sys\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ServerNoResponseError"
+pid: 280148
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 19:24:22,053 ERROR 284048 nodejs.ServerNoResponseError: server 127.0.0.1:61976 no response in 20034ms, maybe the socket is end on the other side. (address: 127.0.0.1:61976)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\project\我的服务器\research-sys\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ServerNoResponseError"
+pid: 284048
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-24 19:24:58,183 ERROR 284460 nodejs.ClusterClientNoResponseError: client no response in 76231ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\project\我的服务器\research-sys\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 284460
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:40:44,324 ERROR 6848 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.error (D:\project\我的服务器\research-sys\app\extend\context.ts:48:18)
+    at User.validate (D:\project\我的服务器\research-sys\app\core\base_controller.ts:12:16)
+    at User.register (D:\project\我的服务器\research-sys\app\controller\v1\user.ts:63:10)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:45:18)
+    at D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\app\middleware\error_handler.ts:16:19
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\project\我的服务器\research-sys\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 6848
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:42:52,345 ERROR 6848 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.error (D:\project\我的服务器\research-sys\app\extend\context.ts:48:18)
+    at User.validate (D:\project\我的服务器\research-sys\app\core\base_controller.ts:12:16)
+    at User.register (D:\project\我的服务器\research-sys\app\controller\v1\user.ts:63:10)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:45:18)
+    at D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\app\middleware\error_handler.ts:16:19
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\project\我的服务器\research-sys\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 6848
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:44:10,098 ERROR 8112 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.error (D:\project\我的服务器\research-sys\app\extend\context.ts:48:18)
+    at User.validate (D:\project\我的服务器\research-sys\app\core\base_controller.ts:12:16)
+    at User.register (D:\project\我的服务器\research-sys\app\controller\v1\user.ts:63:10)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:45:18)
+    at D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\app\middleware\error_handler.ts:16:19
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\project\我的服务器\research-sys\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 8112
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:44:31,171 ERROR 8112 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.error (D:\project\我的服务器\research-sys\app\extend\context.ts:48:18)
+    at User.validate (D:\project\我的服务器\research-sys\app\core\base_controller.ts:12:16)
+    at User.register (D:\project\我的服务器\research-sys\app\controller\v1\user.ts:63:10)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:45:18)
+    at D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\app\middleware\error_handler.ts:16:19
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\project\我的服务器\research-sys\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 8112
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:45:44,446 ERROR 8112 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.error (D:\project\我的服务器\research-sys\app\extend\context.ts:48:18)
+    at User.validate (D:\project\我的服务器\research-sys\app\core\base_controller.ts:12:16)
+    at User.register (D:\project\我的服务器\research-sys\app\controller\v1\user.ts:63:10)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\我的服务器\research-sys\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:45:18)
+    at D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:44:32)
+    at D:\project\我的服务器\research-sys\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\app\middleware\error_handler.ts:16:19
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\我的服务器\research-sys\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\project\我的服务器\research-sys\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\project\我的服务器\research-sys\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\project\我的服务器\research-sys\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 8112
+hostname: DESKTOP-Q6CN8O6
+
+2019-11-25 22:47:43,662 ERROR 6588 nodejs.ClusterClientNoResponseError: client no response in 70564ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\project\我的服务器\research-sys\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 6588
+hostname: DESKTOP-Q6CN8O6
+

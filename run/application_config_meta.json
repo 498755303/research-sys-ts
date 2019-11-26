@@ -1,0 +1,332 @@
+{
+  "keys": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts",
+  "middleware": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts",
+  "errorHandler": {
+    "match": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts"
+  },
+  "security": {
+    "csrf": {
+      "enable": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts",
+      "ignoreJSON": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts",
+      "type": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts",
+    "allowMethods": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts"
+  },
+  "jwt": {
+    "secret": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts",
+    "enable": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-jwt\\config\\config.default.js"
+  },
+  "sequelize": {
+    "dialect": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts",
+    "host": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts",
+    "port": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts",
+    "database": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts",
+    "username": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts",
+    "password": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts",
+    "timezone": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts"
+  },
+  "sourceUrl": "D:\\project\\我的服务器\\research-sys\\config\\config.default.ts",
+  "session": {
+    "maxAge": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "validate": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg-validate\\config\\config.default.js",
+  "env": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "egg": {
+      "typescript": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "declarations": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "tsc": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "clean": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "egg": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "egg-jwt": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "egg-router-plus": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "egg-sequelize": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "egg-validate": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "moment": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "mysql2": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "@types/mocha": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "@types/node": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "@types/supertest": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "sequelize-cli": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "tslib": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "tslint": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "tslint-config-egg": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "typescript": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+    },
+    "eslintIgnore": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "author": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "main": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\project\\我的服务器\\research-sys\\node_modules\\egg\\config\\config.default.js"
+}
