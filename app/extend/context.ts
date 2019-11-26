@@ -1,5 +1,3 @@
-import errCode from "./err_code";
-
 module.exports = {
     /**
      * 驼峰转下划线
@@ -34,23 +32,5 @@ module.exports = {
         if (typeof str === "number") return str;
         if (!str) return str;
         return parseInt(str, 10) || 0;
-    },
-    // 请求成功返回值
-    success(msg: string, data) {
-        this.ctx.body = {
-            code: 200,
-            msg: msg,
-            data,
-        };
-    },
-    // 请求失败返回值
-    error(code: number, msg?: string, data?: object) {
-        console.log(this, this.ctx);
-        // 加入日志记录
-        this.ctx.body = {
-            code,
-            data,
-            msg: msg ? msg : errCode[code],
-        };
-    },
+    }
 };
