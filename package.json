@@ -30,7 +30,7 @@
     "egg-scripts": "^2.6.0",
     "egg-sequelize": "^5.2.0",
     "egg-validate": "^2.0.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mysql2": "^2.0.0"
   },
   "devDependencies": {
